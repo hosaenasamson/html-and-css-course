@@ -1,0 +1,46 @@
+/* Box style  */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.6rem;
+  color: red;
+}
+.box {
+  margin-top: 120px;
+  margin-left: 120px;
+  width: 350px;
+  height: 350px;
+  background-color: aqua;
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+  border: 10px solid yellow;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  padding: 30px;
+}
+.course-text {
+  color: red;
+  text-align: center;
+}
+.box-2 {
+  margin-top: 30px;
+  width: 250px;
+  height: 250px;
+  border: 15px double green;
+}
+.parent-text {
+  font-size: 40px;
+}
+.h2-text {
+  font-size: 3.3rem;
+  text-decoration: underline;
+  /* text-align: center; */
+}
+.p-text {
+  font-size: 2.3rem;
+  color: aqua;
+  margin-top: 3%;
+}
