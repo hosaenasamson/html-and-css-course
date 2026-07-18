@@ -1,0 +1,48 @@
+.container {
+  width: 70vw;
+  height: 43rem;
+  border: 3px solid green;
+  margin: 65px;
+}
+.boxes {
+  width: 50vw;
+  height: 15rem;
+  border: 3px solid blue;
+  margin: 70px;
+  /* Absolute starts */
+  /* position: relative; */
+  /* Absolute ends */
+}
+.box {
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.box-one {
+  background-color: aqua;
+}
+.box-two {
+  background-color: purple;
+  /* Absolute position start */
+  /* position: absolute;
+  right: 0;
+  top: 0; */
+  /* Absolute position ends */
+
+  /* Relative positions start */
+  /* position: relative;
+  right: 0;
+  top: 0; */
+  /* Relative positions end */
+/* Fixed position start */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  /* Fixed position end */
+}
+.box-three {
+  background-color: brown;
+}
