@@ -3,12 +3,14 @@
   height: 43rem;
   border: 3px solid green;
   margin: 65px;
+  /* position: relative; */
 }
 .boxes {
   width: 50vw;
   height: 15rem;
   border: 3px solid blue;
   margin: 70px;
+  position: relative;
   /* Absolute starts */
   /* position: relative; */
   /* Absolute ends */
@@ -20,29 +22,40 @@
   color: white;
   font-weight: bold;
 }
-.box-one {
-  background-color: aqua;
-}
+
 .box-two {
   background-color: purple;
   /* Absolute position start */
-  /* position: absolute;
+  position: absolute;
   right: 0;
-  top: 0; */
+  bottom: 0;
+  
   /* Absolute position ends */
 
   /* Relative positions start */
   /* position: relative;
-  right: 0;
-  top: 0; */
+  right: 10px;
+  top: 10px; */
   /* Relative positions end */
 /* Fixed position start */
-  position: fixed;
+  /* position: fixed;
   top: 0;
   right: 0;
-  width: 100vw;
+  width: 100vw; */
   /* Fixed position end */
 }
 .box-three {
   background-color: brown;
+  position: fixed;
+  width: 100%;
+  height: 20%;
+  top: 0;
+  left: 0;
+}
+
+.box-one {
+  background-color: aqua;
+position:absolute;
+ right: 0;
+  top: 0;
 }
