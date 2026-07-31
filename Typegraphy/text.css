@@ -1,0 +1,21 @@
+.para-1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.9rem;
+  word-spacing: 0.3em;
+}
+
+.para-2 {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: lightcoral;
+  line-height: 1.9;
+}
+h1 {
+  text-align: right;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
