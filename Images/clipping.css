@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.clipping {
+  width: 100%;
+  height: 400px;
+  background-image: url("./67278.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  clip-path: polygon(17% 10%, 88% 12%, 100% 52%, 49% 79%, 0% 50%);
+}
