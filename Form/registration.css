@@ -1,0 +1,12 @@
+* {
+  margin: 20px;
+  padding: 0;
+}
+
+/* input[type="email"]:invalid {
+  border-color: red;
+} */
+
+/* input[type="text"]:invalid {
+  border-color: rgb(0, 255, 85);
+} */
