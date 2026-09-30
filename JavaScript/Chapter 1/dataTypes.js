@@ -61,3 +61,91 @@ let isCompleted = false; // Boolean false
 // Array is a special type of object used for storing multiple values in a single variable. Arrays are created using square brackets [] and can hold values of different data types. [1, 2, 3, "four", true]
 
 // Object is a collection of properties, where each property is defined as a key-value pair. Objects are created using curly braces {}. { name: "John", age: 30, isStudent: true }
+
+
+// practice//
+
+console.log( "hello world");
+console.log(23+3);
+console.log(true);
+
+let earn = "salary"
+console.log(earn);
+earn = "electricity";
+console.log(earn);
+
+let studentname ='alice';
+console.log(studentname)
+studentname = 'bob';
+console.log(studentname) 
+
+const origincountry = "eritrean"
+console.log(origincountry);
+
+country = "Eritrea is a beautiful country"
+console.log(country);
+
+let age =26.9;
+console.log(age)
+console.log(typeof age);
+
+country = 'Ethiopea is a beautiful country'
+console.log(country)
+console.log(typeof country)
+country = 50;
+console.log(country)
+console.log(typeof country)
+
+console.log("20" + 2)
+console.log(20 + 2)
+
+console.log("20" + 6)
+console.log(typeof ("20" - 6))
+
+console.log(true + 4)
+console.log(false + 4)
+console.log(typeof (false + 4))
+
+let price ="102"
+console.log(price)
+console.log(typeof price)
+console.log(Number(price));
+console.log(typeof Number(price));
+
+let Age =89;
+console.log(age)
+console.log(typeof age)
+
+
+
+
+// ?/////
+
+// const priceproduct = {
+//     brand : "apple"
+//     price : 102.99:
+//     discountprice: 60;
+//     is available:false
+
+// array//
+// let studentname1= "hosi"
+// let studentname2= "sari"
+// let studentname3= "siku"
+
+// let studentname= ['hosi', 'sari', 'siku', 'koki']
+// console.log(studentname[3])
+// console.log(studentname)
+// console.log(sortedstudentsname[0])
+// console.log(studentname.length)
+// array//
+
+// primitiv type//
+let a = 10;
+let b = a;
+console.log(a)
+console.log(b) 
+a=20
+b=20
+console.log(a)
+console.log(b)
+
