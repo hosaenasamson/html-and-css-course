@@ -117,8 +117,6 @@ console.log(age)
 console.log(typeof age)
 
 
-
-
 // ?/////
 
 // const priceproduct = {
@@ -148,4 +146,6 @@ a=20
 b=20
 console.log(a)
 console.log(b)
+
+// reference type//
 
