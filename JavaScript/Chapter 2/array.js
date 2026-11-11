@@ -125,15 +125,18 @@ let studentNames = [
   "Abraham",
 ];
 
+// console.log(studentNames.sort());
+// console.log(studentNames.reverse());
+
 let firstName = "Alice";
 let lastName = "James";
 
-let fullName = firstName + ' ' + lastName;
+let fullName = firstName + " " + lastName;
 
 // console.log(fullName);
 
-let num1 = '3'; 
-let num2 = 4; 
+let num1 = "3";
+let num2 = 4;
 
 let total = num2 + num1;
 
@@ -141,9 +144,11 @@ let total = num2 + num1;
 
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// let doubleNumbers = numbers.map((num) => num + 2);
+let doubleNumbers = numbers.map((num) => num + 2);
 
 // console.log(doubleNumbers);
+
+// console.log(numbers);
 
 // numbers.forEach((a)=> console.log(a + 2));
 // console.log(numbers);
@@ -154,68 +159,90 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // reduce():- method executes a "reducer" callback function on each element of an array, iterating through them to accumulate and return a single output value
 
-let vegetables  = [
-  { id: 1, name: "Onion" , price: 23, },
-  { id: 2, name: "Irish Potato" , price: 4 },
-  { id: 3, name: "Tomato" , price: 45 }
+let vegetables = [
+  { id: 6, name: "Onion", price: 23 },
+  { id: 8, name: "Irish Potato", price: 4 },
+  { id: 312, name: "Tomato", price: 45 },
 ];
 
+// console.log(vegetables.length);
 
-
-let totalPrice = vegetables.reduce((total, x) => total + x.price ,0);
-console.log(`Total price of vegetables ${totalPrice}`);
+let totalPrice = vegetables.reduce((total, x) => total + x.price, 0);
+// console.log(`Total price of vegetables ${totalPrice}`);
 let discount = totalPrice * 0.1;
-console.log(`Discount price: ${discount} `);
+// console.log(`Discount price: ${discount} `);
 
 let totalPaid = totalPrice - discount;
-console.log(`Customer total paid is: ${totalPaid}`);
+// console.log(`Customer total paid is: ${totalPaid}`);
 
 // console.log(`Total price paid amount is: ${totalPrice}`);
 
-let totalNumbers = numbers.reduce((total, y) => total + y ,0);
+let totalNumbers = numbers.reduce((total, y) => total + y, 0);
 // console.log(`The total sum of the numbers is: ${totalNumbers}`);
 
 let subjects = [
-  { id: 1, name: "HTML" , mark: 99, },
-  { id: 2, name: "JavaScript" , mark: 87 },
-  { id: 3, name: "CSS" , mark: 90 },
-  { id: 4, name: "React" , mark: 82, },
-  { id: 5, name: "Node.js" , mark: 78 },
-  { id: 6, name: "Express" , mark: 98 },
-  {id:7, name:"TypeScript" , mark: 90}
-]
+  { id: 1, name: "HTML", mark: 99 },
+  { id: 2, name: "JavaScript", mark: 87 },
+  { id: 3, name: "CSS", mark: 90 },
+  { id: 4, name: "React", mark: 82 },
+  { id: 5, name: "Node.js", mark: 78 },
+  { id: 6, name: "Express", mark: 98 },
+  { id: 7, name: "TypeScript", mark: 90 },
+];
 
-let totalMark = subjects.reduce((total, marks)=> total + marks.mark, 0)
-console.log(`Total mark is: ${totalMark}`);
+let totalMark = subjects.reduce((total, marks) => total + marks.mark, 0);
+// console.log(`Total mark is: ${totalMark}`);
 
-console.log(subjects.length);
+// console.log(subjects.length);
 
-let average = totalMark/subjects.length;
-console.log(average.toFixed(2));
+let average = totalMark / subjects.length;
+// console.log(average.toFixed(2));
 
-console.log(subjects);
+// console.log(subjects);
+
+subjects.push({ id: 8, name: "Python", mark: 98 });
+// console.log(subjects);
+
+totalMark = subjects.reduce((total, marks) => total + marks.mark, 0);
+// console.log(`Total mark after add is: ${totalMark}`);
+
+// console.log(subjects.length);
+
+average = totalMark / subjects.length;
+// console.log(`Total average after add : ${average.toFixed(2)}`);
+
+// console.log(subjects.shift());
+// console.log(subjects);
+
+totalMark = subjects.reduce((total, marks) => total + marks.mark, 0);
+// console.log(`Total mark after delete is: ${totalMark}`);
+
+// console.log(subjects.length);
+
+average = totalMark / subjects.length;
+// console.log(`Total average after delete : ${average.toFixed(2)}`);
+
+// Slice method:- The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
+
+let cutNumbers = numbers.slice(2, 5, "Hossy" , "Abiti");
+
+console.log(numbers);
+console.log(cutNumbers);
+console.log(numbers);
 
 
-subjects.push({id: 8 , name: "Python", mark: 98});
-console.log(subjects);
+// Splice method: - The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 
+console.log(numbers);
+console.log(numbers.length);
 
-totalMark = subjects.reduce((total, marks)=> total + marks.mark, 0)
-console.log(`Total mark after add is: ${totalMark}`);
+let removedNumbers = numbers.splice(3,3 , "Selamt" , "Merhaba" , true);
 
-console.log(subjects.length);
+// console.log(removedNumbers);
+// console.log(removedNumbers.length);
+console.log(numbers);
+console.log(numbers.length);
 
-average = totalMark/subjects.length;
-console.log(`Total average after add : ${average.toFixed(2)}`);
+console.log(numbers.includes('Selamt'))
 
-console.log(subjects.shift());
-console.log(subjects);
-
-totalMark = subjects.reduce((total, marks)=> total + marks.mark, 0)
-console.log(`Total mark after delete is: ${totalMark}`);
-
-console.log(subjects.length);
-
-average = totalMark/subjects.length;
-console.log(`Total average after delete : ${average.toFixed(2)}`);
 
