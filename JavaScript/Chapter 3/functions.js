@@ -25,7 +25,7 @@ function greetingStudent(name) {
   console.log(`How are you doing? ${name}`);
 }
 
-greetingStudent("Hossy");
+// greetingStudent("Hossy");
 // greetingStudent("Abiti");
 // greetingStudent("Asefash");
 // greetingStudent("Helen");
@@ -39,6 +39,6 @@ function addThreeNumbers(num1 =0, num2 = 0, num3 =0) {
 }
 
 addThreeNumbers(6, 5, 7);
-addThreeNumbers(0 , 11 );
-addThreeNumbers(8, 45);
-addThreeNumbers(50, 10, 20);
+addThreeNumbers(8 , 11 );
+// addThreeNumbers(8, 45);
+// addThreeNumbers(50, 10, 20);
