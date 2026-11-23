@@ -25,7 +25,7 @@ function greetingStudent(name) {
   console.log(`How are you doing? ${name}`);
 }
 
-greetingStudent("Hossy");
+// greetingStudent("Hossy");
 // greetingStudent("Abiti");
 // greetingStudent("Asefash");
 // greetingStudent("Helen");
@@ -33,12 +33,12 @@ greetingStudent("Hossy");
 // greetingStudent("Abel");
 // greetingStudent("Amanuel");
 
-function addThreeNumbers(num1 =0, num2 = 0, num3 =0) {
+function addThreeNumbers(num1 =0 , num2 = 0, num3 =0) {
   let sum = num1 + num2 + num3;
   console.log(`The sum of ${num1}, ${num2} and ${num3} is: ${sum}`);
 }
 
 addThreeNumbers(6, 5, 7);
-addThreeNumbers(0 , 11 );
-addThreeNumbers(8, 45);
-addThreeNumbers(50, 10, 20);
+// addThreeNumbers(8 , 11 );
+// addThreeNumbers(8, 45);
+// addThreeNumbers(50, 10, 20);
