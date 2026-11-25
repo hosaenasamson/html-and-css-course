@@ -1,5 +1,8 @@
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 // Arithmetic operators: + , - , / , *
 
 let firstName = "Hossy";
