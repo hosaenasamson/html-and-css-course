@@ -1,3 +1,4 @@
+// Functions practice 
 function multi(x,y){
     // return x * y
     console.log(x*y);
